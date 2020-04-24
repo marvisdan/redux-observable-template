@@ -1,0 +1,39 @@
+{
+  "name": "redux-observable",
+  "version": "1.0.0",
+  "description": "redux-observable template with reselect and immerjs",
+  "keywords": [
+    "react",
+    "immerjs",
+    "redux",
+    "reselect",
+    "rxjs"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "immer": "6.0.3",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-redux": "7.2.0",
+    "react-scripts": "3.0.1",
+    "redux": "4.0.5",
+    "redux-observable": "1.2.0",
+    "reselect": "4.0.0",
+    "rxjs": "6.5.5"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
